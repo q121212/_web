@@ -21,7 +21,7 @@ class webserver:
  
  Hello, World!
  """
-    client_connection.sendall(http_response)  
+    client_connection.send(http_response)  
     client_connection.close()
     
 if __name__=='__main__':
